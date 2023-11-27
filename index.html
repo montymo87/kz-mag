@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="HandheldFriendly" content="true">
+	<meta name="MobileOptimized" content="true">
+	<meta name="viewport" content="width=480">
+
+	<title>Bioven</title>
+
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+	<link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+	<link rel="stylesheet" href="assets/css/main.css" type="text/css">
+	<link rel="stylesheet" href="assets/css/jquery.bxslider.min.css" type="text/css">
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" type="text/css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700&subset=cyrillic"
+		type="text/css">
+</head>
+
+<body>
+	<header>
+		<div class="wrap">
+			<ul class="flex flex-between flex-mid">
+				<li class="upp lh120 sgl">Разглаживающий экспресс-лифтинг </li>
+				<li><img src="assets/img/logo_new.png"></li>
+				<!-- <li>
+        		<p class="px14 sgl">Консультация эксперта марки</p>
+        		<p class="sgb px25 pink">8 800 100-27-73</p>
+        	</li> -->
+			</ul>
+		</div>
+	</header>
+
+
+	<main>
+		<section class="block1">
+			<div class="wrap flex flex-right">
+				<div class="box center">
+					<div class="logo"><img src="assets/img/logo2_new.png"></div>
+					<div class="title px47 sgl">Ботокс-эффект <span class="sgb pink">без&nbsp;инъекций</span></div>
+					<ul class="flex flex-between flex-wrap px25">
+						<li>без усилий</li>
+						<li>без уколов</li>
+						<li>без операций</li>
+					</ul>
+					<a href="#zakaz" class="button px28 sgb">заказать</a>
+					<div class="arr"><img src="assets/img/arr.png"></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="block2">
+			<div class="wrap">
+				<ul class="flex flex-between flex-wrap lh140 white ">
+					<li class="flex flex-mid">Разглаживает даже глубокие складки вокруг глаз, губ, на лбу</li>
+					<li class="flex flex-mid">Предотвращает появление новых мимических морщин</li>
+					<li class="flex flex-mid">Подтягивает кожу, корректирует овал лица</li>
+					<li class="flex flex-mid">Эффективно ухаживает и препятствует старению кожи</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="block3">
+			<div class="wrap">
+				<ul class="flex flex-between flex-wrap">
+					<li>
+						<div class="sticker center white">
+							<p class="mik px45">Cпециальное предложение</p>
+							<p class="px45 upp">только <span class="sgb yellow">один</span> день</p>
+						</div>
+						<p class="sgb px32 dgrey center">До окончания осталось:</p>
+						<div id="countbox" class="timerbox flex flex-between sgb">
+						</div>
+					</li>
+					<li><img src="assets/img/box.png"></li>
+					<li>
+						<div class="special px38 center white">
+							<p class="upp sgb">При заказе сегодня</p>
+							<p style="font-size: 90%;">крем В-Люкс за<span class="sgb upp yellow"> со скидкой до
+									70%</span><!-- <sup class="zvezda">*</sup> --></p>
+						</div>
+						<form method="POST" action="send.php" name="form" id="form" class="orderForm">
+							<input placeholder="Ваше имя:" type="text" name="name" maxlength="30" id="name"
+								class="name">
+							<input placeholder="Ваш телефон:" type="tel" name="phone" id="phone" minlength="10"
+								maxlength="20" class="phone" required>
+							<button type="submit" class="button upp sgb white px28">заказать</button>
+						</form>
+						<p class="px16 center sgb grey">* При заказе 1 шт.<br>Внимание! Количество товара по акции
+							ограничено</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="block3" style="background: #F8F8F8;">
+			<div class="wrap">
+				<div class="variable_container">
+					<div class="variable_container_top_part">
+						<div class="left_part">
+							<div class="title_container">
+								<p class="title">1+1 в подарок</p>
+								<p class="text">экономия 12900 тенге; 6450/шт</p>
+							</div>
+							<div class="cost_container">
+								<p>Цена:</p>
+								<p>12900 тг.</p>
+							</div>
+						</div>
+					</div>
+					<div class="variable_container_body_part">
+						<div class="left_part">
+							<div class="img_container">
+								<img src="assets/img/1_1.png">
+							</div>
+							<div class="economy_value">
+								<div>
+									<p class="save">Выгода</p>
+									<p class="value">12900 тенге</p>
+								</div>
+							</div>
+						</div>
+						<div class="right_part">
+							<p class="title">Скидка !</p>
+							<p class="cost">12900 тг.</p>
+							<a href="">Купить на KASPI</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="variable_container">
+					<div class="variable_container_top_part">
+						<div class="left_part">
+							<div class="title_container">
+								<p class="title">2+2 в подарок</p>
+								<p class="text">экономия 32700 тенге; 4725/шт</p>
+							</div>
+							<div class="cost_container">
+								<p>Цена:</p>
+								<p>18900 тг.</p>
+							</div>
+						</div>
+					</div>
+					<div class="variable_container_body_part">
+						<div class="left_part v2">
+							<div class="img_container">
+								<img src="assets/img/2_2.png">
+							</div>
+							<div class="economy_value">
+								<div>
+									<p class="save">Выгода</p>
+									<p class="value">32700 тенге</p>
+								</div>
+							</div>
+						</div>
+						<div class="right_part">
+							<p class="title">Популярно !</p>
+							<p class="cost">32700 тг.</p>
+							<a href="">Купить на KASPI</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="variable_container">
+					<div class="variable_container_top_part">
+						<div class="left_part">
+							<div class="title_container">
+								<p class="title">3+3 в подарок</p>
+								<p class="text">экономия 52500 тенге; 3900/шт</p>
+							</div>
+							<div class="cost_container">
+								<p>Цена:</p>
+								<p>23400 тг.</p>
+							</div>
+						</div>
+					</div>
+					<div class="variable_container_body_part">
+						<div class="left_part v3">
+							<div class="img_container">
+								<img src="assets/img/3_3.png">
+							</div>
+							<div class="economy_value">
+								<div>
+									<p class="save">Выгода</p>
+									<p class="value">52500 тенге</p>
+								</div>
+							</div>
+						</div>
+						<div class="right_part">
+							<p class="title">Лучшее предложение !</p>
+							<p class="cost">52500 тг.</p>
+							<a href="">Купить на KASPI</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="block4">
+			<div class="wrap">
+				<div class="arrows"><img src="assets/img/arrows.png"></div>
+				<div class="box"><img src="assets/img/box.png"></div>
+				<ul class="flex flex-around flex-wrap px18">
+					<li class="p1">
+						<p class="sgb upp">ботокс-эффект</p>
+						<p class="sgl">в домашних условиях</p>
+					</li>
+					<li class="p1">
+						<p class="sgb upp">Подходит для всех&nbsp;зон</p>
+						<ul class="sgl">
+							<li>«гусиные лапки» вокруг глаз</li>
+							<li>носогубные складки</li>
+							<li>уголки губ</li>
+							<li>бороздки на лбу и между бровей</li>
+						</ul>
+					</li>
+					<li class="p1">
+						<p class="sgb upp">без возрастных</p>
+						<p class="sgl">ограничений</p>
+
+					</li>
+					<li class="p1">
+						<p class="sgb upp">без эффекта «маски»</p>
+						<p class="sgl">и застывшей мимики</p>
+					</li>
+					<li class="p1">
+						<p class="sgb upp">безопасно и безболезненно </p>
+						<p class="sgl">не содержит токсинов</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+
+		<section class="block5">
+			<div class="wrap">
+				<div class="title pink center sgb px48">Как действует В-Люкс?</div>
+				<ul class="flex flex-between flex-wrap">
+					<li class="p1 flex flex-around flex-column  flex-wrap">
+						<div class="img"><img src="assets/img/before.jpg"></div>
+						<div class="img"><img src="assets/img/after.jpg"></div>
+					</li>
+					<li class="p2">
+						<p class="px20 lh140"><span class="sgb">Мимические морщины</span> — часть видимых морщин лица.
+							Как следы времени, эти морщины становятся все более и более глубокими из-за повторяющихся
+							движений лицевых мускулов.</p>
+						<ul class="p3 flex flex-between flex-wrap">
+							<li>
+								<div class="att center">
+									<p class="pink sgb upp px18">Революционная формула В-Люкс</p>
+									<p class="mik px24 lh120">расслабляет лицевые мышцы, разглаживая даже глубокие
+										складки и предотвращая появление новых мимических морщин</p>
+								</div>
+							</li>
+							<li class="center">
+								<img src="assets/img/pic1.jpg">
+							</li>
+						</ul>
+
+						<p class="px20 lh140">Крошечные микрогранулы, наполненные гилауроновой кислотой и коллагеном,
+							быстро проникают в эпидермис, достигая поверхности морщин вокруг глаз, губ и на лбу</p>
+
+						<p class="px30 lh140 pink sgb">Доказанный эффект!</p>
+						<p class="px20 lh140">Уже через 30 дней регулярного использования*</p>
+						<ul class="p4 flex flex-between flex-wrap center">
+							<li>
+								<div class="num px45 sgb flex flex-center flex-mid">82%</div>
+								<p class="sgb lh120 upp">расслабление</p>
+								<p class="lh120">мышц, формирующих морщины</p>
+							</li>
+							<li>
+								<div class="num px45 sgb  flex flex-mid flex-center center">52%</div>
+								<p class="sgb upp lh120">сокращение</p>
+								<p class="lh120">глубины морщин</p>
+							</li>
+							<li>
+								<div class="num px45 sgb flex flex-mid center flex-center">21%</div>
+								<p class="sgb upp lh120">кожа более</p>
+								<p class="lh120">гладкая и ровная</p>
+							</li>
+							<li>
+								<div class="num px45 sgb flex flex-mid center flex-center">73%</div>
+								<p class="sgb upp lh120">убедились </p>
+								<p class="lh120">в эффективности В-Люкс!</p>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="block6">
+			<div class="wrap">
+				<div class="title pink center sgb px48">Реальные результаты</div>
+				<div class="slider bxslider">
+					<div class="slide flex flex-between flex-wrap center px30 lh140">
+						<div><img src="assets/img/s1-1.png">
+							<p>неделя</p>
+						</div>
+						<div><img src="assets/img/arrowl.png"></div>
+						<div><img src="assets/img/s1-2.png">
+							<p>неделя</p>
+						</div>
+						<div><img src="assets/img/arrowl.png"></div>
+						<div><img src="assets/img/s1-3.png">
+							<p>неделя</p>
+						</div>
+						<div><img src="assets/img/arrowl.png"></div>
+						<div><img src="assets/img/s1-4.png">
+							<p>неделя</p>
+						</div>
+					</div>
+					<div class="slide flex flex-between flex-wrap center px30 lh140">
+						<div><img src="assets/img/s2-1.png">
+							<p>неделя</p>
+						</div>
+						<div><img src="assets/img/arrowl.png"></div>
+						<div><img src="assets/img/s2-2.png">
+							<p>неделя</p>
+						</div>
+						<div><img src="assets/img/arrowl.png"></div>
+						<div><img src="assets/img/s2-3.png">
+							<p>неделя</p>
+						</div>
+						<div><img src="assets/img/arrowl.png"></div>
+						<div><img src="assets/img/s2-4.png">
+							<p>неделя</p>
+						</div>
+					</div>
+					<div class="slide flex flex-between flex-wrap center px30 lh140">
+						<div><img src="assets/img/s3-1.png">
+							<p>неделя</p>
+						</div>
+						<div><img src="assets/img/arrowl.png"></div>
+						<div><img src="assets/img/s3-2.png">
+							<p>неделя</p>
+						</div>
+						<div><img src="assets/img/arrowl.png"></div>
+						<div><img src="assets/img/s3-3.png">
+							<p>неделя</p>
+						</div>
+						<div><img src="assets/img/arrowl.png"></div>
+						<div><img src="assets/img/s3-4.png">
+							<p>неделя</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="block7">
+			<div class="wrap">
+				<div class="title center px48 sgl lh120">Забудьте о дорогостоящих и болезненных<br><span
+						class="sgb pink">салонных процедурах!</span></div>
+				<div class="block flex flex-right">
+					<div class="text">
+						<p class="px24 lh140">Теперь Вы выглядите на 15 лет моложе, и при регулярном использовании так
+							будет всегда!</p>
+						<ul class="px24 list sgl">
+							<li>Никаких уколов или операций. </li>
+							<li>Никакой стянутости и неестественности. </li>
+							<li>В разы дешевле ботокса.</li>
+							<li>И никакой боли!</li>
+						</ul>
+						<div class="box center">
+							<p class="upp sgb px30 bir">Забудьте о ботоксе!</p>
+							<p class="px36 mik">Избавьтесь от морщин в домашних условиях быстро и легко!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="block3">
+			<div class="wrap">
+				<ul class="flex flex-between flex-wrap">
+					<li>
+						<div class="sticker center white">
+							<p class="mik px45">Cпециальное предложение</p>
+							<p class="px45 upp">только <span class="sgb yellow">один</span> день</p>
+						</div>
+						<p class="sgb px32 dgrey center">До окончания осталось:</p>
+						<div id="countbox2" class="timerbox flex flex-between sgb">
+						</div>
+					</li>
+					<li><img src="assets/img/box.png"></li>
+					<li>
+						<div class="special px38 center white">
+							<p class="upp sgb">При заказе сегодня</p>
+							<p style="font-size: 90%;">крем В-Люкс за<span class="sgb upp yellow"> со скидкой до
+									70%</span><!-- <sup class="zvezda">*</sup> --></p>
+						</div>
+						<form method="POST" action="send.php" name="form" id="form" class="orderForm">
+							<input placeholder="Ваше имя:" type="text" name="name" maxlength="30" id="name"
+								class="name">
+							<input placeholder="Ваш телефон:" type="tel" name="phone" id="phone" minlength="10"
+								maxlength="20" class="phone" required>
+							<button type="submit" class="button upp sgb white px28">заказать</button>
+						</form>
+						<p class="px16 center sgb grey">* При заказе 1 шт.<br>Внимание! Количество товара по акции
+							ограничено</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="block8">
+			<div class="wrap">
+				<div class="ico">
+					<p class="white px32 lh140">Способ применения</p>
+					<p class="white px32 sgl lh140">Наносить массажными движениями на лицо ежедневно вечером. Можно
+						использовать в качестве основы под макияж.</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="block9">
+			<div class="wrap">
+				<div class="title sgl pink center px48">
+					<span class="sgb">Быстро и безопасно</span><br>благодаря натуральному составу
+				</div>
+				<ul class="flex flex-between flex-wrap flex-mid">
+					<li>
+						<div class="p1">
+							<p class="bir2 sgb px18 lh120">Растительные пептиды и аминокислоты коллагена</p>
+							<div class="line"></div>
+							<p class="lh120">Стимулируют синтез собственного эластина и коллагена в дерме, повышают
+								упругость кожи, обеспечивают эффект мгновенного лифтинга.</p>
+						</div>
+						<div class="p1">
+							<p class="bir2 sgb px18 lh120">Витамин А</p>
+							<div class="line"></div>
+							<p class="lh120">Делает кожу более эластичной и мягкой, улучшает ее структуру и внешний вид.
+							</p>
+						</div>
+						<div class="p1">
+							<p class="bir2 sgb px18 lh120">Витамин Е</p>
+							<div class="line"></div>
+							<p class="lh120">Помогает коже сохранить естественную влагу, разглаживает морщинки, питает и
+								защищает от ультрафиолета.</p>
+						</div>
+					</li>
+					<li>
+						<div class="p1">
+							<p class="bir2 sgb px18 lh120">Гилауроновая кислота</p>
+							<div class="line"></div>
+							<p class="lh120">Является безопасной альтернативой ботоксу. Проникая в слои эпидермиса,
+								оказывает блокирующее действие на сокращение мышц, устраняя основную причину
+								возникновения морщин</p>
+						</div>
+						<div class="p1">
+							<p class="bir2 sgb px18 lh120">Витамин C </p>
+							<div class="line"></div>
+							<p class="lh120">Входящий в состав, оказывает противовоспалительное действие, поддерживает
+								структуру и эластичность кожи, обладает сильными антиоксидантными свойствами.</p>
+						</div>
+						<div class="p1">
+							<p class="bir2 sgb px18 lh120">Ниацинамид</p>
+							<div class="line"></div>
+							<p class="lh120">Делает кожу гладкой и эластичной, способствует процессам регенерации,
+								обладает антисептическим, успокаивающим и увлажняющим действием.</p>
+						</div>
+					</li>
+				</ul>
+
+			</div>
+		</section>
+
+		<section class="recom">
+			<div class="wrap">
+				<div class="title sgb pink center px48">Что говорят наши клиенты</div>
+				<ul class="flex flex-between flex-wrap px18 lh120">
+					<li>
+						<img src="assets/img/ba1.png">
+					</li>
+					<li>
+						<div class="rev">
+							<p>Купила сыворотку В-Люкс попробовать, через неделю моя кожа стала мягче, нежнее, цвет лица
+								прямо помолодел. Гусиные лапки возле глаз исчезли. Такого результата, если честно, я не
+								ожидала. Разгладились носогубные морщины. Поэтому могу смело утверждать, что эта
+								сыворотка особенный и действительно работает против морщин.</p>
+							<p class="sgb">Альбина, 42 года</p>
+						</div>
+					</li>
+					<li>
+						<img src="assets/img/asdasdasd.png">
+					</li>
+					<li>
+						<div class="rev">
+							<p>Испробовала более десятка омолаживающих сывороток, надеясь, что хотя бы очередное
+								средстве принесет какой-либо результат. И наконец купила В-Люкс. Первый результат
+								заметен был уже через три недели использования. Кожа стала более гладкой и эластичной,
+								морщины разгладились. Исчезли даже пигментные пятна. В сравнении с другой омолаживающей
+								косметикой результат действительно впечатлил. Жаль, что я узнала о нем так поздно и
+								потратила уйму времени и средств. Так что очень рекомендую!</p>
+							<p class="sgb">Гульнара, 50 лет</p>
+						</div>
+					</li>
+					<li>
+						<img src="assets/img/ba2.png">
+					</li>
+					<li>
+						<div class="rev">
+							<p>Всего через 1 месяц и 3 недели после использования сыворотки В-Люкс мои морщины были
+								истреблены! Как приятно смотреть на себя вновь помолодевшую и похорошевшую в зеркало!
+								Мимические морщины начали появляться у меня довольно рано – в 27 лет, и с каждым годом
+								ситуация только ухудшалась. Но сейчас перемены просто кардинальные. Я счастлива!</p>
+							<p class="sgb">Светлана, 35 лет</p>
+						</div>
+					</li>
+
+				</ul>
+			</div>
+		</section>
+
+
+
+		<section class="block10">
+			<div class="wrap">
+				<div class="title sgb white center px48">Сделать заказ просто!</div>
+				<ul class="center flex flex-between flex-wrap white px22 sgl lh140">
+					<li>
+						<img src="assets/img/hww1.png">
+						<p class="upp sgb">ОСТАВЬТЕ ЗАЯВКУ</p>
+						<p>на нашем сайте</p>
+						<a href="#zakaz" class="btn upp center sgb white">заказать</a>
+					</li>
+					<li>
+						<img src="assets/img/hww2.png">
+						<p class="upp sgb">эксперт марки</p>
+						<p>связывается с вами для подтверждения и индивидуальной консультации</p>
+					</li>
+					<li>
+						<img src="assets/img/hww3.png">
+						<p class="upp sgb">получите скидку&nbsp;10%</p>
+						<p>при предоплате заказа</p>
+					</li>
+					<li>
+						<img src="assets/img/hww4.png">
+						<p class="upp sgb">получите заказ</p>
+						<p>оплачивая его на почте или курьеру</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<!--   <section class="block11">
+    <div class="wrap">
+    	<div class="box px24 lh120">
+	    <p class="px32 upp pink sgb">наши гарантии</p>
+		<p>Мы абсолютно уверены в эффективности крема, поэтому берем на себя ответственность вернуть Вам деньги в случае, если Вы не получите ожидаемого результата. </p>
+	  	<p class="sgb px22">Вы ничем не рискуете!</p>
+	  	</div>
+    </div>
+  </section> -->
+
+		<section class="block12">
+			<div class="wrap flex flex-left">
+				<div class="box center">
+					<div class="logo"><img src="assets/img/logo2_new.png"></div>
+					<div class="title px47 sgl">Ботокс-эффект <span class="sgb pink">без&nbsp;инъекций</span></div>
+					<ul class="flex flex-between flex-wrap px25">
+						<li>без усилий</li>
+						<li>без уколов</li>
+						<li>без операций</li>
+					</ul>
+					<a href="#zakaz" class="button px28 sgb">заказать</a>
+					<div class="arr"><img src="assets/img/arr.png"></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="block3" id="zakaz">
+			<div class="wrap">
+				<ul class="flex flex-between flex-wrap">
+					<li>
+						<div class="sticker center white">
+							<p class="mik px45">Cпециальное предложение</p>
+							<p class="px45 upp">только <span class="sgb yellow">один</span> день</p>
+						</div>
+						<p class="sgb px32 dgrey center">До окончания осталось:</p>
+						<div id="countbox3" class="timerbox flex flex-between sgb">
+						</div>
+					</li>
+					<li><img src="assets/img/box.png"></li>
+					<li>
+						<div class="special px38 center white">
+							<p class="upp sgb">При заказе сегодня</p>
+							<p style="font-size: 90%;">крем В-Люкс за<span class="sgb upp yellow"> со скидкой до
+									70%</span><!-- <sup class="zvezda">*</sup> --></p>
+						</div>
+						<form method="POST" action="send.php" name="form" id="form" class="orderForm">
+							<input placeholder="Ваше имя:" type="text" name="name" maxlength="30" id="name"
+								class="name">
+							<input placeholder="Ваш телефон:" type="tel" name="phone" id="phone" minlength="10"
+								maxlength="20" class="phone" required>
+							<button type="submit" class="button upp sgb white px28">заказать</button>
+						</form>
+						<p class="px16 center sgb grey">* При заказе 1 шт.<br>Внимание! Количество товара по акции
+							ограничено</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+	</main>
+
+
+	<footer>
+		<div class="wrap">
+			<ul class="flex flex-between flex-wrap">
+				<!-- <li class="p1">
+          <p class="title px24 sflight">Как мы работаем:</p>
+          <ul class="list px14 lh140">
+            <li>Вы оставляете заявку на сайте с помощью формы заказа</li>
+            <li>С вами связывается специалист марки и отвечает на все  ваши вопросы, помогает оформить доставку</li>
+            <li>Отправляем ваш заказ почтовой или курьерской службой. Оплата — только при получении товара.</li>
+          </ul>
+        </li> -->
+				<li class="p3">
+					<p class="title px24 sflight">&nbsp;</p>
+					<p class="px14 lh140">Официальный интернет-магазин «VLUXE» в Казахстане
+						<!-- <nobr>ООО «МТ-Маркетинг»</nobr>,<br>ОГРН 5167746222881 -->
+					</p>
+					<p class="px14 adr lh140">050020 Казахстан, г. Алматы,<br>Ньютона 1А офис 101</p>
+					<p class="px14 adr lh140"><span id="politic">Политика конфиденциальности</a></p>
+					<!-- <p></p>
+          <p class="px13 sfr">Affiliate manager: <img src="assets/img/footer_drcash.png" class="vam"></p> -->
+				</li>
+				<li class="p2">
+					<p class="title px24 sflight">Производитель:</p>
+					<img src="assets/img/logo_new.png">
+					<p class="px14 line lh140">Телефон для связи: <a href="tel:+7 777 012-51-75">+7 777 012-51-75</a>
+					</p>
+					<p class="px14 lh140">050020 Казахстан, г. Алматы, ул.<br>Ньютона 1А офис 101</p>
+				</li>
+
+			</ul>
+		</div>
+	</footer>
+
+
+	<div class="yvedw">
+		<div class="yved yvedf1">
+			<div class="yvedvt">
+				<div class="yvedt">Айнура (г. Жезказган)<br>сделала заказ<br>кол-во 1 шт</div>
+			</div>
+		</div>
+		<div class="yved yvedf1">
+			<div class="yvedvt">
+				<div class="yvedt">Зарина (г. Нур-Султан)<br>сделала заказ<br>кол-во 2 шт</div>
+			</div>
+		</div>
+		<div class="yved yvedf1">
+			<div class="yvedvt">
+				<div class="yvedt">Светлана (г. Алматы)<br>оставила заявку на обратный звонок</div>
+			</div>
+		</div>
+		<div class="yved yvedf1">
+			<div class="yvedvt">
+				<div class="yvedt">Динара (г. Актау)<br>сделала заказ<br>кол-во 4 шт</div>
+			</div>
+		</div>
+		<div class="yved yvedf1">
+			<div class="yvedvt">
+				<div class="yvedt">Талгат (г. Семей)<br>сделал заказ<br>кол-во 1 шт</div>
+			</div>
+		</div>
+		<div class="yved yvedf1">
+			<div class="yvedvt">
+				<div class="yvedt">Ирина (г. Алматы)<br>сделала заказ<br>кол-во 1 шт</div>
+			</div>
+		</div>
+		<div class="yved yvedf1">
+			<div class="yvedvt">
+				<div class="yvedt">Акмарал (г. Тараз)<br>оставила заявку на обратный звонок</div>
+			</div>
+		</div>
+		<div class="yved yvedf1">
+			<div class="yvedvt">
+				<div class="yvedt">Константин (г. Cатпаев)<br>оставил заявку на обратный звонок</div>
+			</div>
+		</div>
+		<div class="yved yvedf1">
+			<div class="yvedvt">
+				<div class="yvedt">Маргарита (г. Караганда)<br>сделала заказ<br>кол-во 2 шт</div>
+			</div>
+		</div>
+		<div class="yved yvedf1">
+			<div class="yvedvt">
+				<div class="yvedt">Талгат (г. Семей)<br>сделала заказ<br>кол-во 1 шт</div>
+			</div>
+		</div>
+		<div class="yved yvedf1">
+			<div class="yvedvt">
+				<div class="yvedt">Гулзара (г. Уральск)<br>сделала заказ<br>кол-во 2 шт</div>
+			</div>
+		</div>
+		<div class="yved yvedf1">
+			<div class="yvedvt">
+				<div class="yvedt">Асема (г. Алматы)<br>сделала заказ<br>кол-во 3 шт</div>
+			</div>
+		</div>
+		<div class="yved yvedf1">
+			<div class="yvedvt">
+				<div class="yvedt">Надежда (г. Талдыкорган)<br>сделала заказ<br>кол-во 2 шт</div>
+			</div>
+		</div>
+		<div class="yved yvedf1">
+			<div class="yvedvt">
+				<div class="yvedt">Раушан (г. Балхаш)<br>сделала заказ<br>кол-во 2 шт</div>
+			</div>
+		</div>
+		<div class="yved yvedf1">
+			<div class="yvedvt">
+				<div class="yvedt">Роман (г. Алматы)<br>сделал заказ<br>кол-во 2 шт</div>
+			</div>
+		</div>
+		<div class="yved yvedf1">
+			<div class="yvedvt">
+				<div class="yvedt">Альбина (г. Алматы)<br>сделала заказ<br>кол-во 2 шт</div>
+			</div>
+		</div>
+		<div class="yved yvedf1">
+			<div class="yvedvt">
+				<div class="yvedt">Жамал (г. Актобе)<br>сделала заказ<br>кол-во 3 шт</div>
+			</div>
+		</div>
+		<div class="yved yvedf1">
+			<div class="yvedvt">
+				<div class="yvedt">Шолпан (г. Туркестан)<br>сделала заказ<br>кол-во 2 шт</div>
+			</div>
+		</div>
+		<div class="yved yvedf1">
+			<div class="yvedvt">
+				<div class="yvedt">Валентина (г. Кызылорда)<br>сделала заказ<br>кол-во 1 шт</div>
+			</div>
+		</div>
+		<div class="yved yvedf1">
+			<div class="yvedvt">
+				<div class="yvedt">Акмарал (г. Актобе)<br>сделала заказ<br>кол-во 2 шт</div>
+			</div>
+		</div>
+		<div class="yved yvedf1">
+			<div class="yvedvt">
+				<div class="yvedt">Оксана (г. Павлодар)<br>сделала заказ<br>кол-во 1 шт</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+	<script src="assets/js/jquery.bxslider.min.js" type="text/javascript"></script>
+	<script src="assets/js/custom.js" type="text/javascript"></script>
+
+
+	<!-- Facebook Pixel Code -->
+	<script type="text/javascript">
+		!function (f, b, e, v, n, t, s) {
+			if (f.fbq) return; n = f.fbq = function () {
+				n.callMethod ?
+					n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+			n.queue = []; t = b.createElement(e); t.async = !0;
+			t.src = v; s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+
+		fbq('init', '1286990075286085');
+		fbq('track', 'PageView');
+	</script>
+	<noscript><img src="https://www.facebook.com/tr?id=1286990075286085&ev=PageView&noscript=1" width="1"
+			height="1"></noscript>
+	<!-- End Facebook Pixel Code -->
+
+	<div id="myModal" class="modal">
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			<h2>Политика конфиденциальности</h2>
+			<div class="">
+				<p>Настоящий документ «Политика конфиденциальности» (далее по тексту – «Политика») представляет собой
+				правила использования /указать владельца сайта/ (далее – «мы» и/или «Администрация») данных
+				интернет-пользователей (далее «вы» и/или «Пользователь»), собираемых с использованием сайта / указать
+				URL сайта/ (далее – «Сайт»).</p>
+				<p>1. Обрабатываемые данные</p>
+
+				<p>1.1. Мы не осуществляем сбор ваших персональных данных с использованием Сайта.</p>
+
+				<p>1.2. Все данные, собираемые на Сайте, предоставляются и принимаются в обезличенной форме (далее –
+				«Обезличенные данные»).</p>
+
+				<p>1.3. Обезличенные данные включают следующие сведения, которые не позволяют вас идентифицировать:</p>
+
+				<p>1.3.1. Информацию, которую вы предоставляете о себе самостоятельно с использованием онлайн-форм и
+				программных модулей Сайта, включая имя и номер телефона и/или адрес электронной почты.</p>
+
+				<p>1.3.2. Данные, которые передаются в обезличенном виде в автоматическом режиме в зависимости от настроек
+				используемого вами программного обеспечения.</p>
+
+				<p>1.4. Администрация вправе устанавливать требования к составу Обезличенных данных Пользователя, которые
+				собираются использованием Сайта.</p>
+
+				<p>1.5. Если определенная информация не помечена как обязательная, ее предоставление или раскрытие
+				осуществляется Пользователем на свое усмотрение. Одновременно вы даете информированное согласие на
+				доступ неограниченного круга лиц к таким данным. Указанные данные становится общедоступными с момента
+				предоставления и/или раскрытия в иной форме.</p>
+
+				<p>1.6. Администрация не осуществляет проверку достоверности предоставляемых данных и наличия у
+				Пользователя необходимого согласия на их обработку в соответствии с настоящей Политикой, полагая, что
+				Пользователь действует добросовестно, осмотрительно и прилагает все необходимые усилия к поддержанию
+				такой информации в актуальном состоянии и получению всех необходимых согласий на ее использование.</p>
+
+				<p>1.7. Вы осознаете и принимаете возможность использования на Сайте программного обеспечения третьих лиц,
+				в результате чего такие лица могут получать и передавать указанные в п.1.3 данные в обезличенном виде.</p>
+
+				<p>Пример! К указанному программному обеспечению третьих лиц относятся системы сбора статистики посещений
+				Google Analytics и Яндекс.Метрика.</p>
+
+				<p>1.8. Состав и условия сбора обезличенных данных с использованием программного обеспечения третьих лиц
+				определяются непосредственно их правообладателями и могут включать:</p>
+
+				<p>данные браузера (тип, версия, cookie);</p>
+				<p>данные устройства и место его положения;</p>
+				<p>данные операционной системы (тип, версия, разрешение экрана);</p>
+				<p>данные запроса (время, источник перехода, IP-адрес).</p>
+
+				<p>1.9. Администрация не несет ответственность за порядок использования Обезличенных данных Пользователя
+				третьими лицами.</p>
+				<p>2. Цели обработки данных</p>
+
+				<p>2.1. Администрация использует данные в следующих целях:</p>
+
+				<p>2.1.1. Обработка поступающих запросов и связи с Пользователем;</p>
+
+				<p>2.1.2. Информационное обслуживание, включая рассылку рекламно-информационных материалов;</p>
+
+				<p>2.1.3. Проведение маркетинговых, статистических и иных исследований;</p>
+
+				<p>2.1.4. Таргетирование рекламных материалов на Сайте.</p>
+				<p>3. Требования к защите данных</p>
+
+				<p>3.1. Администрация осуществляет хранение данных и обеспечивает их охрану от несанкционированного доступа
+				и распространения в соответствии с внутренними правилами и регламентами.</p>
+
+				<p>3.2. В отношении полученных данных сохраняется конфиденциальность, за исключением случаев, когда они
+				сделаны Пользователем общедоступными, а также когда используемые на Сайте технологии и программное
+				обеспечение третьих лиц либо настройки используемого Пользователем программного обеспечения
+				предусматривают открытый обмен с данными лицами и/или иными участниками и пользователями сети Интернет.</p>
+
+				<p>3.3. В целях повышения качества работы Администрация вправе хранить лог-файлы о действиях, совершенных
+				Пользователем в рамках использования Сайта в течение 1 (Одного) года.</p>
+				<p>4. Передача данных</p>
+
+				<p>4.1. Администрация вправе передать данные третьим лицам в следующих случаях:</p>
+
+				<p>Пользователь выразил свое согласие на такие действия, включая случаи применения Пользователем настроек
+				используемого программного обеспечения, не ограничивающих предоставление определенной информации;</p>
+				<p>Передача необходима в рамках использования Пользователем функциональных возможностей Сайта;</p>
+				<p>Передача требуется в соответствии с целями обработки данных;</p>
+				<p>В связи с передачей Сайта во владение, пользование или собственность такого третьего лица;</p>
+				<p>По запросу суда или иного уполномоченного государственного органа в рамках установленной
+				законодательством процедуры;</p>
+				<p>Для защиты прав и законных интересов Администрации в связи с допущенными Пользователем нарушениями.</p>
+
+				<p>5. Изменение Политики конфиденциальности</p>
+
+				<p>5.1. Настоящая Политика может быть изменена или прекращена Администрацией в одностороннем порядке без
+				предварительного уведомления Пользователя. Новая редакция Политики вступает в силу с момента ее
+				размещения на Сайте, если иное не предусмотрено новой редакцией Политики.</p>
+
+				<p>5.2. Действующая редакция Политики находится на Сайте в сети Интернет по адресу.</p>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		var modal = document.getElementById("myModal");
+
+		var btn = document.getElementById("politic");
+
+		var span = document.getElementsByClassName("close")[0];
+
+		btn.onclick = function () {
+			modal.style.display = "block";
+		}
+
+		span.onclick = function () {
+			modal.style.display = "none";
+		}
+
+		window.onclick = function (event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+		}
+	</script>
+</body>
+
+</html>
