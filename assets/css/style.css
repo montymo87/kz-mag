@@ -1883,6 +1883,10 @@ footer .vam {
   overflow: hidden;
 }
 
+.one_plus + .one_plus {
+  margin-top: 2rem;
+}
+
 .one_plus p + p {
   margin-top: 5px;
 }
@@ -2045,8 +2049,17 @@ footer .vam {
     text-align: center;
   }
 
+  .one_plus__col--flex_center,
   .one_plus__info {
-    align-items: center;
-    align-content: center;
+    display: block;
+    text-align: center;
+  }
+
+  .one_plus__benefit strong {
+    font-size: 30px;
+  }
+
+  .one_plus__benefit {
+    font-size: 24px;
   }
 }
