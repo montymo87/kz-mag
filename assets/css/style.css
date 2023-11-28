@@ -44,6 +44,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  line-height: 1.33;
+}
+
 section,
 header,
 footer {
@@ -1952,7 +1956,7 @@ footer .vam {
 }
 
 .one_plus p + p {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .one_plus__head {
