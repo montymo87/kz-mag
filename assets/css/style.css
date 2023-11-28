@@ -583,7 +583,7 @@ form {
 }
 
 .block9 {
-  background: url("../img/bg4_new.jpg") center no-repeat;
+  background: url("../img/bg4new.jpg") center no-repeat;
   background-size: cover;
   padding: 50px 0;
   min-height: 844px;
@@ -643,10 +643,11 @@ form {
 .block9 ul li:nth-child(2) .p1:nth-child(1) {
   background: url(../img/kisspng-hyaluronic-acid-molecule-skin-chemistry-face-molecul-5b36641ece44b8.3771588115302912308449-PhotoRoom.png-PhotoRoom.png)
     no-repeat 100% 50%;
+  background-size: 12%;
 }
 
 .block9 ul li:nth-child(2) .p1:nth-child(2) {
-  background: url(../img/vitamin_c.jpg) no-repeat 100% 50%;
+  background: url(../img/grape.png) no-repeat 100% 50%;
   /* width: 80%;
   height: 80%;  */
 }
@@ -800,7 +801,7 @@ form {
 }
 
 .block12 {
-  background: url("../img/bg7_v2.jpg") 50% 50% no-repeat;
+  background: url("../img/newbg.jpg") 50% 50% no-repeat;
   min-height: 565px;
   background-size: cover;
   padding: 50px 0;
@@ -1020,6 +1021,23 @@ footer .vam {
   opacity: 0.9;
 }
 
+.block3 li > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.footer__logo {
+  display: block;
+  width: 200px;
+  height: auto;
+}
+
+.footer__phone {
+  pointer-events: none;
+}
+
 @media screen and (max-width: 1400px) {
   .block6 .bx-wrapper {
     width: 100%;
@@ -1120,6 +1138,11 @@ footer .vam {
 }
 
 @media screen and (max-width: 1154px) {
+  .block1 {
+    background: url(../img/sadasd.jpg) 58% 0% no-repeat;
+    background-size: cover;
+  }
+
   .block5 .p1 {
     width: 100%;
     flex-direction: row;
@@ -1179,7 +1202,7 @@ footer .vam {
   }
 
   .block9 {
-    background: url("../img/bg4m.jpg") 50% 100% no-repeat;
+    background: url("../img/bg4mnew.jpg") 50% 100% no-repeat;
     background-size: 1200px;
     padding: 50px 0 622px;
   }
@@ -1216,6 +1239,28 @@ footer .vam {
   .bx-wrapper .bx-controls-direction a {
     top: 50%;
     margin-top: -30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .block7 {
+    background: url("../img/bg7_new.jpg") 110% 50%;
+  }
+
+  .block7__info_w {
+    justify-content: center;
+  }
+
+  .block7__info_w ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .block7__list_title {
+    text-align: center;
   }
 }
 
@@ -1299,7 +1344,6 @@ footer .vam {
   }
 
   .block7 {
-    background: url("../img/bg7_new.jpg") 50% 50%;
     min-height: 685px;
     padding: 30px 0;
     background-size: cover;
@@ -1328,7 +1372,7 @@ footer .vam {
   }
 
   .block9 {
-    background: url("../img/bg4m.jpg") 50% 100% no-repeat;
+    background: url("../img/bg4mnew.jpg") 50% 100% no-repeat;
     background-size: 1000px;
     padding: 50px 0 522px;
   }
@@ -1449,7 +1493,7 @@ footer .vam {
   }
 
   .block12 {
-    background: #d2f5f7 url("../img/bg7m.jpg") 50% 100% no-repeat;
+    background: #d2f5f7 url("../img/bg7mnew.jpg") 50% 100% no-repeat;
     background-size: 960px;
     padding: 30px 0 520px;
   }
@@ -1523,7 +1567,7 @@ footer .vam {
   }
 
   .block9 {
-    background: url("../img/bg4m.jpg") 50% 100% no-repeat;
+    background: url("../img/bg4mnew.jpg") 50% 100% no-repeat;
     background-size: 740px;
     padding: 50px 0 380px;
   }
@@ -1564,6 +1608,10 @@ footer .vam {
 
   footer ul li .px24 {
     font-size: 20px;
+  }
+
+  footer ul {
+    align-items: flex-start;
   }
 }
 
