@@ -1940,7 +1940,7 @@ footer .vam {
 }
 
 .one_plus__head {
-  padding: 1rem 1.5rem;
+  padding: 1rem 1.5rem 1.5rem;
   display: flex;
   justify-content: flex-start;
   background-color: #00d0e1;
@@ -1982,7 +1982,7 @@ footer .vam {
 }
 
 .one_plus__name strong {
-  font-size: 25px;
+  font-size: 35px;
 }
 
 .one_plus__cost {
