@@ -1940,11 +1940,16 @@ footer .vam {
 }
 
 .one_plus__head {
-  padding: 0.5rem 1.5rem;
+  padding: 1rem 1.5rem;
   display: flex;
   justify-content: flex-start;
   background-color: #00d0e1;
   color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .one_plus__col {
   width: 50%;
@@ -1971,9 +1976,9 @@ footer .vam {
 
 .one_plus__name {
   /* width: 80%; */
-  padding-right: 20px;
   font-size: 16px;
   font-family: "SegoeUIBold";
+  text-align: center;
 }
 
 .one_plus__name strong {
@@ -2110,4 +2115,10 @@ footer .vam {
   .one_plus__benefit {
     font-size: 24px;
   }
+}
+
+.footer__logo {
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: "SegoeUIBold";
 }
