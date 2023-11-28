@@ -1036,6 +1036,7 @@ footer .vam {
 
 .footer__phone {
   pointer-events: none;
+  color: #fff;
 }
 
 @media screen and (max-width: 1400px) {
@@ -1418,7 +1419,7 @@ footer .vam {
   .block1 {
     background: #d2f5f7 url("../img/bg1m.jpg") 50% 100% no-repeat;
     background-size: 960px;
-    padding: 30px 0 600px;
+    padding: 30px 0 450px;
   }
 
   .block1 .arr {
@@ -1493,9 +1494,10 @@ footer .vam {
   }
 
   .block12 {
-    background: #d2f5f7 url("../img/bg7mnew.jpg") 50% 100% no-repeat;
+    background: #d2f5f7 url("../img/bg1m.jpg") 50% 100% no-repeat;
+    /* background: #d2f5f7 url("../img/bg7mnew.jpg") 50% 100% no-repeat; */
     background-size: 960px;
-    padding: 30px 0 520px;
+    padding: 30px 0 450px;
   }
 
   .block12 .box {
@@ -2123,7 +2125,14 @@ footer .vam {
 }
 
 .footer__logo {
+  /* text-align: center; */
+  width: 100%;
   font-size: 50px;
   font-weight: bolder;
   font-family: "SegoeUIBold";
+}
+
+.btn_order {
+  margin-top: 3rem;
+  min-width: 250px;
 }
