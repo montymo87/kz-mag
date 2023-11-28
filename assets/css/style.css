@@ -1899,6 +1899,7 @@ footer .vam {
 
 /* Стили для содержимого модального окна */
 .modal-content {
+  position: relative;
   background-color: #fefefe;
   margin: 15% auto;
   padding: 20px;
@@ -1908,6 +1909,10 @@ footer .vam {
 
 /* Стили для крестика закрытия */
 .close {
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  right: 20px;
   color: #aaaaaa;
   float: right;
   font-size: 28px;
@@ -1947,7 +1952,7 @@ footer .vam {
 }
 
 .one_plus p + p {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .one_plus__head {
@@ -2187,4 +2192,28 @@ footer .vam {
   content: "";
 
   background-color: #fff;
+}
+
+.modal-content {
+  padding-top: 50px;
+}
+
+.modal-content h2 {
+  margin-bottom: 20px;
+}
+
+.modal_content strong {
+  font-family: "SegoeUIBold";
+}
+
+.modal_content p:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.modal_content p {
+  font-weight: 400;
+}
+
+.how__title {
+  line-height: 1.33;
 }
