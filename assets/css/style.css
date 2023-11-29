@@ -1958,6 +1958,12 @@ footer .vam {
   }
 }
 
+@media (max-width: 440px) {
+  .block7 .list li:nth-child(2) {
+    max-width: 290px;
+  }
+}
+
 #politic {
   cursor: pointer;
 }
