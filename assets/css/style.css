@@ -1427,7 +1427,7 @@ footer .vam {
   }
 
   .block7 .box p:first-child {
-    padding: 0 40px 20px;
+    padding: 0 30px 20px;
   }
 
   .block7 .box p:first-child:after {
@@ -1436,7 +1436,7 @@ footer .vam {
     top: 18px;
     left: 0;
     display: block;
-    width: 40px;
+    width: 35px;
     height: 1px;
     content: "";
     border-bottom: 2px solid #00c0cf;
@@ -1447,7 +1447,7 @@ footer .vam {
     top: 18px;
     right: -4px;
     display: block;
-    width: 40px;
+    width: 35px;
     height: 1px;
     content: "";
     border-bottom: 2px solid #00c0cf;
@@ -1958,7 +1958,7 @@ footer .vam {
   }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 400px) {
   .block7 .list li:nth-child(2) {
     max-width: 290px;
   }
