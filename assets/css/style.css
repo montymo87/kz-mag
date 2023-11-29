@@ -1958,7 +1958,7 @@ footer .vam {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 767px) {
   .block7 .list li:nth-child(2) {
     max-width: 290px;
   }
